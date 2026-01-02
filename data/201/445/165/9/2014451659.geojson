@@ -2,10 +2,12 @@
   "id": 2014451659,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-01-01",
-    "date:inception_upper": "2026-01-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-01",
+    "date:cessation_lower": "2026-01-01",
+    "date:cessation_upper": "2026-01-01",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2026-01-01T08:03:47-08:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-01-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102555307,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N77576",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -83,12 +91,13 @@
     ],
     "wof:id": 2014451659,
     "wof:involves": [
-      102527513,
-      102555307,
       1159285413,
-      1763588337
+      1763588337,
+      1528104577,
+      102527513,
+      102555307
     ],
-    "wof:lastmodified": 1767370039,
+    "wof:lastmodified": 1767370593,
     "wof:name": "UA3934 (YVR-SFO)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",
