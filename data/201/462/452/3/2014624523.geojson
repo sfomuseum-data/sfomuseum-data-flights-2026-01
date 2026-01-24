@@ -2,10 +2,12 @@
   "id": 2014624523,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-23",
+    "date:cessation_upper": "2026-01-23",
     "date:inception_lower": "2026-01-23",
     "date:inception_upper": "2026-01-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-23",
+    "edtf:cessation": "2026-01-23T21:57:00Z",
+    "edtf:inception": "2026-01-23T04:12:20-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "CPA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20260123-D-CPA-7944",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N733AL",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO684046lF"
+    },
     "wof:country": "US",
     "wof:created": 1769271099,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -92,9 +105,10 @@
       102527513,
       1159283813,
       1947304273,
-      1159284127
+      1159284127,
+      1528104577
     ],
-    "wof:lastmodified": 1769271099,
+    "wof:lastmodified": 1769271446,
     "wof:name": "AS580 (SFO-SEA)",
     "wof:parent_id": 1947304273,
     "wof:placetype": "custom",

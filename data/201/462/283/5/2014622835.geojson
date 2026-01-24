@@ -2,10 +2,12 @@
   "id": 2014622835,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-23",
+    "date:cessation_upper": "2026-01-23",
     "date:inception_lower": "2026-01-23",
     "date:inception_upper": "2026-01-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-23",
+    "edtf:cessation": "2026-01-23T08:01:10-08:00",
+    "edtf:inception": "2026-01-23T22:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-01-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7213045,
     "geom:longitude": -119.4384925,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533591,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N47357",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "121043839",
+      "swim:gufi": "KL782556Yp"
+    },
     "wof:country": "US",
     "wof:created": 1769270905,
     "wof:geomhash": "a35a6e87f0ae0f1f716f88067ee31aa3",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2014622835,
     "wof:involves": [
-      102527513,
       102533591,
       1159285413,
-      -1
+      1528104575,
+      102527513
     ],
-    "wof:lastmodified": 1769270905,
+    "wof:lastmodified": 1769271433,
     "wof:name": "UA8136 (PSP-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

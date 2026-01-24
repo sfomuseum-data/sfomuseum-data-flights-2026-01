@@ -2,10 +2,12 @@
   "id": 2014622429,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-23",
+    "date:cessation_upper": "2026-01-23",
     "date:inception_lower": "2026-01-23",
     "date:inception_upper": "2026-01-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-23",
+    "edtf:cessation": "2026-01-23T03:45:34-08:00",
+    "edtf:inception": "2026-01-23T13:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.809414,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260123-A-ANZ-9365",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N27290",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -88,13 +98,14 @@
     ],
     "wof:id": 2014622429,
     "wof:involves": [
-      102527513,
       102529403,
       1159285413,
       1763588337,
-      1159283697
+      1159283697,
+      1528104575,
+      102527513
     ],
-    "wof:lastmodified": 1769270857,
+    "wof:lastmodified": 1769271432,
     "wof:name": "UA1973 (PHL-SFO)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",

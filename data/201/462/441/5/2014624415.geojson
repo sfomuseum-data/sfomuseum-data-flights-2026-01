@@ -2,10 +2,12 @@
   "id": 2014624415,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-24",
+    "date:cessation_upper": "2026-01-24",
     "date:inception_lower": "2026-01-23",
     "date:inception_upper": "2026-01-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-23",
+    "edtf:cessation": "2026-01-24T05:38:00Z",
+    "edtf:inception": "2026-01-23T11:52:56-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20260123-D-HAL-7031",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N520AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "120985222",
+      "swim:gufi": "KO094087fN"
+    },
     "wof:country": "US",
     "wof:created": 1769271087,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -92,9 +106,10 @@
       102527513,
       1159283813,
       1947304297,
-      1159284489
+      1159284489,
+      1159289871
     ],
-    "wof:lastmodified": 1769271087,
+    "wof:lastmodified": 1769271436,
     "wof:name": "AS1327 (SFO-SEA)",
     "wof:parent_id": 1947304297,
     "wof:placetype": "custom",
