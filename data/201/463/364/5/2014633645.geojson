@@ -2,10 +2,12 @@
   "id": 2014633645,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-24",
+    "date:cessation_upper": "2026-01-24",
     "date:inception_lower": "2026-01-24",
     "date:inception_upper": "2026-01-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-24",
+    "edtf:cessation": "2026-01-24T19:17:00Z",
+    "edtf:inception": "2026-01-24T01:24:26-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20260124-D-ANA-7285",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N879UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "121096145",
+      "swim:gufi": "KO586107Pf"
+    },
     "wof:country": "US",
     "wof:created": 1769357634,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304491,
-      1159283875
+      1159283875,
+      1159289407
     ],
-    "wof:lastmodified": 1769357634,
+    "wof:lastmodified": 1769357745,
     "wof:name": "UA2340 (SFO-SEA)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

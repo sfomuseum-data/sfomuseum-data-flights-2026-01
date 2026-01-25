@@ -2,10 +2,12 @@
   "id": 2014633699,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-24",
+    "date:cessation_upper": "2026-01-24",
     "date:inception_lower": "2026-01-24",
     "date:inception_upper": "2026-01-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-24",
+    "edtf:cessation": "2026-01-24T11:44:19Z",
+    "edtf:inception": "2026-01-24T07:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "121070617"
+    },
     "wof:country": "US",
     "wof:created": 1769357640,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -94,7 +99,7 @@
       1947304463,
       1159283697
     ],
-    "wof:lastmodified": 1769357640,
+    "wof:lastmodified": 1769357746,
     "wof:name": "UA285 (SFO-EWR)",
     "wof:parent_id": 1947304463,
     "wof:placetype": "custom",

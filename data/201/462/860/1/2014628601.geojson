@@ -2,10 +2,12 @@
   "id": 2014628601,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-24",
+    "date:cessation_upper": "2026-01-24",
     "date:inception_lower": "2026-01-24",
     "date:inception_upper": "2026-01-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-24",
+    "edtf:cessation": "2026-01-24T16:29:01Z",
+    "edtf:inception": "2026-01-24T05:36:56Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "MU",
     "flysfo:date": "2026-01-24",
@@ -48,6 +50,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "121069831"
+    },
     "wof:country": "US",
     "wof:created": 1769357055,
     "wof:geomhash": "0a16624c451961804ad27ef012213244",
@@ -88,7 +93,7 @@
       1159284157,
       1947304097
     ],
-    "wof:lastmodified": 1769357055,
+    "wof:lastmodified": 1769357735,
     "wof:name": "MU589 (PVG-SFO)",
     "wof:parent_id": 1947304097,
     "wof:placetype": "custom",

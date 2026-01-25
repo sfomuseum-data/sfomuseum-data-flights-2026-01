@@ -2,10 +2,12 @@
   "id": 2014633425,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-25",
+    "date:cessation_upper": "2026-01-25",
     "date:inception_lower": "2026-01-24",
     "date:inception_upper": "2026-01-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-24",
+    "edtf:cessation": "2026-01-25T00:28:00Z",
+    "edtf:inception": "2026-01-24T21:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -107.78563,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531131,
     "sfomuseum:base_flight_id": "20260124-D-CCA-7325",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N36280",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "121115920",
+      "swim:gufi": "KO734137hU"
+    },
     "wof:country": "US",
     "wof:created": 1769357609,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2014633425,
     "wof:involves": [
+      1947304517,
+      1159283605,
+      1159289871,
       102531131,
       102527513,
-      1159285413,
-      1947304517,
-      1159283605
+      1159285413
     ],
-    "wof:lastmodified": 1769357609,
+    "wof:lastmodified": 1769357745,
     "wof:name": "UA1012 (SFO-MSP)",
     "wof:parent_id": 1947304517,
     "wof:placetype": "custom",

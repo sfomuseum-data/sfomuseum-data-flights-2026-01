@@ -2,10 +2,12 @@
   "id": 2014628289,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-01-24",
-    "date:inception_upper": "2026-01-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-24",
+    "date:cessation_lower": "2026-01-24",
+    "date:cessation_upper": "2026-01-24",
+    "date:inception_lower": "2026-01-25",
+    "date:inception_upper": "2026-01-25",
+    "edtf:cessation": "2026-01-24T15:24:09-08:00",
+    "edtf:inception": "2026-01-25T00:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2026-01-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 24.105522999999998,
     "geom:longitude": -103.9582495,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102537565,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N935AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO806927VF"
+    },
     "wof:country": "US",
     "wof:created": 1769357018,
     "wof:geomhash": "71bb587b8c9d0b605ad2c4f0a951ea9c",
@@ -86,9 +99,10 @@
       102527513,
       102537565,
       1159283813,
-      1947304385
+      1947304385,
+      1528104577
     ],
-    "wof:lastmodified": 1769357018,
+    "wof:lastmodified": 1769357733,
     "wof:name": "AS456 (LIR-SFO)",
     "wof:parent_id": 1947304385,
     "wof:placetype": "custom",

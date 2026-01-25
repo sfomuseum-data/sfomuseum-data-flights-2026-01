@@ -2,10 +2,12 @@
   "id": 2014630351,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-24",
+    "date:cessation_upper": "2026-01-24",
     "date:inception_lower": "2026-01-24",
     "date:inception_upper": "2026-01-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-24",
+    "edtf:cessation": "2026-01-24T08:33:36-08:00",
+    "edtf:inception": "2026-01-24T23:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -116.76460499999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260124-A-ANZ-9415",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N77559",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "121121764",
+      "swim:gufi": "KU7885472v"
+    },
     "wof:country": "US",
     "wof:created": 1769357258,
     "wof:geomhash": "acf2ad4ec949b4135a187e5a7cb03262",
@@ -92,9 +106,10 @@
       102530815,
       1159285413,
       1947304487,
-      1159283697
+      1159283697,
+      1528104577
     ],
-    "wof:lastmodified": 1769357258,
+    "wof:lastmodified": 1769357730,
     "wof:name": "UA794 (BZN-SFO)",
     "wof:parent_id": 1947304487,
     "wof:placetype": "custom",

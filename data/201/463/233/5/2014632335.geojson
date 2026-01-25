@@ -2,10 +2,12 @@
   "id": 2014632335,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-24",
+    "date:cessation_upper": "2026-01-24",
     "date:inception_lower": "2026-01-24",
     "date:inception_upper": "2026-01-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-24",
+    "edtf:cessation": "2026-01-24T19:43:00Z",
+    "edtf:inception": "2026-01-24T15:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20260124-D-AMX-4304",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N16065",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "121086397",
+      "swim:gufi": "KO510617yH"
+    },
     "wof:country": "US",
     "wof:created": 1769357485,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2014632335,
     "wof:involves": [
-      102534365,
       102527513,
       1159284261,
       1947304607,
-      1159283539
+      1159283539,
+      1159289965,
+      102534365
     ],
-    "wof:lastmodified": 1769357485,
+    "wof:lastmodified": 1769357740,
     "wof:name": "DL405 (SFO-JFK)",
     "wof:parent_id": 1947304607,
     "wof:placetype": "custom",

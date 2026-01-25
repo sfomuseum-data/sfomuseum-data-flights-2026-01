@@ -2,10 +2,12 @@
   "id": 2014628315,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-24",
+    "date:cessation_upper": "2026-01-24",
     "date:inception_lower": "2026-01-24",
     "date:inception_upper": "2026-01-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-24",
+    "edtf:cessation": "2026-01-24T08:43:39-08:00",
+    "edtf:inception": "2026-01-24T21:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260124-A-HAL-6466",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N722AL",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "121112654",
+      "swim:gufi": "KL836047CI"
+    },
     "wof:country": "US",
     "wof:created": 1769357021,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -92,9 +106,10 @@
       102536481,
       1159283813,
       1947304265,
-      1159284489
+      1159284489,
+      1528104577
     ],
-    "wof:lastmodified": 1769357021,
+    "wof:lastmodified": 1769357734,
     "wof:name": "AS690 (PVR-SFO)",
     "wof:parent_id": 1947304265,
     "wof:placetype": "custom",
