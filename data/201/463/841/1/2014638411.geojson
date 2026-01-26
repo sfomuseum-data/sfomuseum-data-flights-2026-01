@@ -2,10 +2,12 @@
   "id": 2014638411,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-25",
+    "date:cessation_upper": "2026-01-25",
     "date:inception_lower": "2026-01-25",
     "date:inception_upper": "2026-01-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-25",
+    "edtf:cessation": "2026-01-25T18:03:00Z",
+    "edtf:inception": "2026-01-25T15:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2026-01-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.260825,
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
+    "icao:aircraft": "A319",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N831AW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "121149301",
+      "swim:gufi": "KO4436716v"
+    },
     "wof:country": "US",
     "wof:created": 1769443785,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2014638411,
     "wof:involves": [
+      1159289407,
       102528541,
       102527513,
       1159283849,
       1947304281
     ],
-    "wof:lastmodified": 1769443785,
+    "wof:lastmodified": 1769444266,
     "wof:name": "AA40 (SFO-DFW)",
     "wof:parent_id": 1947304281,
     "wof:placetype": "custom",

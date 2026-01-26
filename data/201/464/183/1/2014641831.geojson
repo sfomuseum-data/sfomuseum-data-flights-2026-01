@@ -2,10 +2,12 @@
   "id": 2014641831,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-25",
+    "date:cessation_upper": "2026-01-25",
     "date:inception_lower": "2026-01-25",
     "date:inception_upper": "2026-01-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-25",
+    "edtf:cessation": "2026-01-25T08:12:00Z",
+    "edtf:inception": "2026-01-25T07:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:base_flight_id": "20260125-D-AVA-6922",
@@ -53,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "121137947",
+      "swim:gufi": "KO221451X6"
+    },
     "wof:country": "US",
     "wof:created": 1769444179,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
@@ -88,13 +96,14 @@
     ],
     "wof:id": 2014641831,
     "wof:involves": [
+      1159285749,
+      1159289871,
       102555307,
       102527513,
       1159285413,
-      1947304627,
-      1159285749
+      1947304627
     ],
-    "wof:lastmodified": 1769444179,
+    "wof:lastmodified": 1769444254,
     "wof:name": "UA8100 (SFO-YVR)",
     "wof:parent_id": 1947304627,
     "wof:placetype": "custom",
