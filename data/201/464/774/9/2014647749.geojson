@@ -2,10 +2,12 @@
   "id": 2014647749,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-27",
+    "date:cessation_upper": "2026-01-27",
     "date:inception_lower": "2026-01-26",
     "date:inception_upper": "2026-01-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-26",
+    "edtf:cessation": "2026-01-27T06:29:00Z",
+    "edtf:inception": "2026-01-26T13:37:24-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "SAS",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20260126-D-SAS-3638",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N377DE",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "121195969",
+      "swim:gufi": "KO166213xQ"
+    },
     "wof:country": "US",
     "wof:created": 1769530374,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2014647749,
     "wof:involves": [
+      1159285129,
+      1159289871,
       102533795,
       102527513,
       1159284261,
-      1947304279,
-      1159285129
+      1947304279
     ],
-    "wof:lastmodified": 1769530374,
+    "wof:lastmodified": 1769530650,
     "wof:name": "DL2054 (SFO-LAX)",
     "wof:parent_id": 1947304279,
     "wof:placetype": "custom",

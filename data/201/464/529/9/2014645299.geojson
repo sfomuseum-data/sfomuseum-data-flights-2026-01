@@ -2,10 +2,12 @@
   "id": 2014645299,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-26",
+    "date:cessation_upper": "2026-01-26",
     "date:inception_lower": "2026-01-26",
     "date:inception_upper": "2026-01-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-26",
+    "edtf:cessation": "2026-01-26T06:38:21-08:00",
+    "edtf:inception": "2026-01-26T22:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-01-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.5616045,
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525535,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N488UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "121232883",
+      "swim:gufi": "KO760902JO"
+    },
     "wof:country": "US",
     "wof:created": 1769530086,
     "wof:geomhash": "a4d4dc469296ca0f5ad383dc766835b1",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2014645299,
     "wof:involves": [
+      1159292085,
       102527513,
       102525535,
       1159285413,
       1947304603
     ],
-    "wof:lastmodified": 1769530086,
+    "wof:lastmodified": 1769530645,
     "wof:name": "UA1761 (RNO-SFO)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

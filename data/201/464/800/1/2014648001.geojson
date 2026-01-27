@@ -2,10 +2,12 @@
   "id": 2014648001,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-26",
+    "date:cessation_upper": "2026-01-26",
     "date:inception_lower": "2026-01-26",
     "date:inception_upper": "2026-01-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-26",
+    "edtf:cessation": "2026-01-26T19:57:00Z",
+    "edtf:inception": "2026-01-26T18:59:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2026-01-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "F9",
+    "icao:aircraft": "A321",
     "icao:airline": "FFT",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N710FR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "121220365",
+      "swim:gufi": "KO642342Cx"
+    },
     "wof:country": "US",
     "wof:created": 1769530403,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2014648001,
     "wof:involves": [
-      102533795,
       102527513,
       1159284401,
-      1947304307
+      1947304307,
+      1159289411,
+      102533795
     ],
-    "wof:lastmodified": 1769530403,
+    "wof:lastmodified": 1769530662,
     "wof:name": "F93308 (SFO-LAX)",
     "wof:parent_id": 1947304307,
     "wof:placetype": "custom",
