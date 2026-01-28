@@ -2,10 +2,12 @@
   "id": 2014651433,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-28",
+    "date:cessation_upper": "2026-01-28",
     "date:inception_lower": "2026-01-27",
     "date:inception_upper": "2026-01-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-27",
+    "edtf:cessation": "2026-01-28T01:24:00Z",
+    "edtf:inception": "2026-01-27T23:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260127-A-KLM-6499",
@@ -53,6 +57,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "121302282"
+    },
     "wof:country": "US",
     "wof:created": 1769616295,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -88,13 +95,14 @@
     ],
     "wof:id": 2014651433,
     "wof:involves": [
-      102527513,
-      102527363,
       1159284261,
       1947304671,
-      1159284613
+      1159284613,
+      1159289407,
+      102527513,
+      102527363
     ],
-    "wof:lastmodified": 1769616295,
+    "wof:lastmodified": 1769616948,
     "wof:name": "DL1088 (SLC-SFO)",
     "wof:parent_id": 1947304671,
     "wof:placetype": "custom",
