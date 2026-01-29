@@ -2,10 +2,12 @@
   "id": 2014656857,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-01-28",
+    "date:cessation_upper": "2026-01-28",
     "date:inception_lower": "2026-01-28",
     "date:inception_upper": "2026-01-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-01-28",
+    "edtf:cessation": "2026-01-28T18:52:00Z",
+    "edtf:inception": "2026-01-28T12:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "AAL",
     "icao:base_airline": "GLO",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260128-A-GLO-6252",
@@ -39,7 +43,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "121324330"
+    },
     "wof:country": "US",
     "wof:created": 1769702514,
     "wof:geomhash": "38f88108bbae8bb050c3144d37bdc384",
@@ -51,13 +61,13 @@
     ],
     "wof:id": 2014656857,
     "wof:involves": [
-      102527513,
       102531023,
       1159283849,
-      -1,
-      1779770725
+      1779770725,
+      1377564297,
+      102527513
     ],
-    "wof:lastmodified": 1769702514,
+    "wof:lastmodified": 1769703395,
     "wof:name": "AA1557 (MIA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
